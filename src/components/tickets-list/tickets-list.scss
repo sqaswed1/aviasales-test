@@ -1,0 +1,33 @@
+.ticket-list{
+    margin-left: 150px;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+
+    &__item{
+        list-style-type: none;
+    }
+
+    &__alert{
+        margin-top: 200px;
+        margin-left: 300px;
+    }
+
+    &__button-more{
+        border:none;
+        border-radius: 5px;
+        width: 530px;
+        height: 40px;
+        margin-left: 370px;
+        background-color: #2196F3;
+        font-size: 20px;
+        cursor: pointer;
+        color: white;
+        align-self: center;
+    }
+
+    &__spin{
+       margin-top: 200px;
+       margin-left: 300px;
+    }
+}

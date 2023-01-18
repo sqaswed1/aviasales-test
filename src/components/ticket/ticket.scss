@@ -1,0 +1,31 @@
+.ticket {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   margin: 10px;
+   margin-top: 40px;
+    height: 200px;
+    width: 530px;
+    line-height: 30px;
+    margin-left: 110px;
+
+    &-price{
+        color: rgb(83, 83, 208);
+        font-weight: 600;
+        font-size: 25px;
+        padding: 30px;
+        position: relative;
+        top: 10px;
+    }
+
+    &-info{
+        width: 100%;
+        padding-left: 30px;
+        margin-top: 15px;
+    }
+    
+    &__img{
+        position: relative;
+        left: 250px;
+        top: 10px;
+    }
+}
+

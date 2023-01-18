@@ -1,0 +1,41 @@
+.transplants-filter{
+    display: inline;
+    white-space: nowrap;
+    padding-left: 80px;
+   padding: 15px 15px;
+
+    width: 100px;
+    cursor: pointer;
+    font-size: 14px;
+    list-style-type: none;
+    border: rgb(227, 217, 217) 1px solid;
+
+    &__active{
+    display: inline;
+   background-color: #2196F3;
+    }
+
+    &__label{
+        padding: 20px;
+        cursor: pointer;
+    }
+    &__input{
+        display: none;
+    }
+    
+    &-label {
+        display: block;
+        word-wrap: normal;
+        padding: 15px;
+    }
+    &:first-child {
+        border-radius: 8px 0px 0px 8px;
+    }
+    
+    &:last-child {
+        border-radius: 0px 8px 8px 0px;
+    }
+  
+}
+
+       
